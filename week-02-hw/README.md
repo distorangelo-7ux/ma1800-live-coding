@@ -2,6 +2,7 @@ A short hypertext "game" about finding a blue pen across different locations.
 Mostly just experimentation on buttons with links, and images.
 
 All images come from Shutterstock. Links below:
+
 [ballpoint pen](https://www.shutterstock.com/image-photo/blue-pen-isolated-on-white-background-2282421145)
 
 [outdoor park](https://www.shutterstock.com/image-photo/scenic-green-landscape-public-outdoor-park-2025432926)
