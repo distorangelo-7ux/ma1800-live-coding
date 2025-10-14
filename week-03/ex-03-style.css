@@ -1,0 +1,22 @@
+body {
+    background-color: aliceblue;
+}
+
+#cat {
+    text-align: center;
+}
+
+.house {
+    color:blue;
+}
+
+.catcat {
+    font-size: 20px;
+}
+
+#houseID {
+    border: 2px solid black;
+    margin: 75px;
+    padding: 200px;
+    background-color: #d1d4d8;
+}

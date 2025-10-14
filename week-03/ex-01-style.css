@@ -1,0 +1,27 @@
+body {
+    background-color: #eceae6;
+}
+
+.default {  
+    color: #1e1f1f;
+    font-size:20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 255;
+    font-stretch: extra-condensed;
+}
+
+#ddd {
+    margin-left: 255px;
+    margin-right: 255px;
+    border: 2px solid #1e1f1f;
+    border-radius: 25;
+    text-align: right;
+}
+
+h1 {
+    color:#eab91b;
+    text-align: center;
+    font-size: 125px;
+}
