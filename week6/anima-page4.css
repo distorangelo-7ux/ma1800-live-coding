@@ -1,0 +1,33 @@
+body {
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+@keyframes colourCycle {
+    0% { color: #1a1919;}
+    25% { color: #4f1342;}
+    50% { color: #dc2a5c;}
+    100% { color: #32222a;}
+}
+
+@keyframes rainbow {
+    0% {color:red}
+    20% {color: orange}
+    40% {color: yellow}
+    60% {color: green}
+    80% {color: blue}
+    100% {color: magenta}
+}
+
+.colourCycling {
+    padding: 50px;
+    animation: colourCycle 2s alternate-reverse infinite;
+}
+
+.chrome {
+    padding:100px;
+    
+}

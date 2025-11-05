@@ -19,7 +19,7 @@ body {
     position: fixed;
     left: 10px;
     top: 50px;
-    text-align: right;
+
 }
 
 #cat {
@@ -43,7 +43,7 @@ body {
     left: 3590px;
     top: 3750px;
     font-size: 18px;
-    paddng: 25px;
+    padding: 25px;
 }
 
 #clue {

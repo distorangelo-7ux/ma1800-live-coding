@@ -1,0 +1,48 @@
+body {
+    font-family: monospace;
+}
+
+p {
+    font-size: 4rem;
+    margin: 50px;
+}
+
+@keyframes spin {
+    100% {
+        transform: 
+        rotateY(360deg)
+        rotate(360deg);
+    }
+}
+
+.letter {
+    display: inline-block;
+    text-align: center;
+    color: blue;
+    margin: 10px;
+    animation-name: spin;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+}
+
+#l1 {
+    animation-delay: 0s;
+    animation-duration: 2.1s;
+}
+#l2 {
+    animation-delay: 0.1s;
+    animation-duration: 2s;
+}
+#l3 {
+    animation-delay: 0.2s;
+    animation-duration: 1.8s;
+}
+#l4 {
+    animation-delay: 0.3s;
+    animation-duration: 1.7s;
+}
+#l5 {
+    animation-delay: 0.4s;
+    animation-duration: 1.6s;
+}

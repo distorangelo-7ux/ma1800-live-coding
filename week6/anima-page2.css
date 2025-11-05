@@ -1,0 +1,43 @@
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+    background-image: url(images/flashingstar.gif);
+    background-repeat: repeat;
+}
+
+h1 {
+    width: 100%;
+    margin: 0 -50%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes fly {
+    100% {
+        transform:translateX(200px);
+    }
+}
+
+.spinning {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: #2f282c;
+    animation: spin 2s linear infinite;
+}
+
+.spinning:hover {
+    cursor:crosshair;
+}
+
+.hero {
+    width: 2px;
+    height: auto;
+    animation: fly 10s ease-in infinite;
+}
