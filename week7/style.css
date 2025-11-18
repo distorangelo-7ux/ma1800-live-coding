@@ -1,0 +1,63 @@
+/* CSS Document — Wireframing and Navigation */
+
+body {
+  font-family: comicSans;
+  margin: 50px;
+}
+
+article {
+  width: 500px; /* fixed width for main text block */
+}
+
+nav {
+  width:100%;
+  border-bottom: 3px solid blue;
+  height: 75px;
+  display: block;
+}
+
+.nav-item {
+  font-family: roboto;
+  float: right;
+  margin-right: 128px;
+  padding: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background: rgb(202, 205, 214);
+  border-bottom: 2px solid cyan;
+  border-left: 3px solid blue;
+  animation: spin 0.25s alternate-reverse;
+}
+
+.house {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+
+@font-face {
+  font-family: comicSans;
+  src: url(fonts/COMIC.TTF);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/roboto.ttf);
+}
+
+@keyframes spin {
+  25% {
+        transform: rotate(5deg); 
+  }
+  50% {
+        transform: rotate(-5deg); 
+  }
+}

@@ -1,0 +1,88 @@
+/* CSS Document — Content Boxes with Flex Layout */
+
+body {
+    background: orange;
+    background-image: url(images/orangebg.gif);
+    background-repeat: repeat;
+    color: white;
+    font-family: roboto;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 24pt;
+    text-align: center;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/roboto.ttf);
+}
+
+
+.year {
+    display: flex;
+    margin: 50px 0;
+    border: 5px solid white;
+}
+
+.year:hover {
+    transform: skew(1deg, -2deg);
+    scale: 1.1;
+}
+
+.info-box {
+    flex-grow: 1;
+    flex-basis: auto;
+    background: white;
+    color: coral;
+    margin: 5px 5px;
+    padding: 25px;
+    border: 5px solid orange;
+}
+
+.info-box:hover {
+    background: rgb(72, 66, 66);
+    color: orange;
+    font-style: italic;
+    animation: spin 0.25s alternate-reverse;
+    flex-grow: 2;
+}
+
+.info-image {
+    width: 50px;
+    height: auto;
+    cursor: grab;
+}
+
+.bigger {
+    flex-grow: 4;
+}
+
+.bigger:hover {
+    flex-grow: 40;
+}
+
+#kirby {
+    animation: fly 2s alternate-reverse infinite;
+}
+
+@keyframes fly {
+    100% {
+        transform:translateX(600px)
+    }
+}
+
+@keyframes spin {
+  25% {
+        transform: rotate(2deg); 
+  }
+  50% {
+        transform: rotate(-2deg); 
+  }
+}
